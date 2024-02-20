@@ -10,7 +10,6 @@ header{
     background-color: lightgray;
     line-height: 100px;
     text-align: center;
-    
     background-color: #f0f0f0;
     box-shadow: 10px 10px 20px 0px rgba(0, 0, 0, 0.5);
     
@@ -18,4 +17,116 @@ header{
 }
 header img{
     vertical-align: middle;    
+}
+
+
+section{
+    width: 80vw;
+    height: 1100px;
+    margin: 50px auto;
+    
+    border-radius: 10px 10px 10px 10px;
+    background-color: lightgray;
+    background-color: #f0f0f0;
+    box-shadow: 10px 10px 20px 0px rgba(0, 0, 0, 0.5);
+}
+.contenitor-button{
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    line-height: 100px;
+    align-items: center;
+    border-bottom: 1px solid black;
+}
+.contenitor-button input{
+    width: 50vw;
+    height: 90px;
+    border-radius: 10px;
+    margin-right: 10px;
+    border: none;
+}
+.contenitor-button input[type="search"]{
+    padding-left: 20px;
+}
+.contenitor-button button{
+    width: 10vw;
+    height: 90px;
+    background-color: lightblue;
+    border-radius: 10px;
+    border: none;
+}
+
+.contenitor-tasks h2{
+    margin-left: 5vw;
+    margin-top: 50px;
+    margin-bottom: 10px;
+}
+.contenitor-tasks p{
+    display: inline-block;
+}
+.contenitor-tasks li{
+    list-style: none;
+    margin-left: 5vw;
+    margin-right: 5vw;
+    margin-bottom: 10px;
+    background-color: white;
+    border-radius: 10px;
+    padding: 20px 0;
+}
+.Editional{
+    background-color: rgb(85, 207, 255);
+    border-radius: 10px;
+    padding: 5px;
+    color: white;
+}
+.Q1-Goals{
+    background-color: rgb(100, 100, 245);
+    border-radius: 10px;
+    padding: 5px;
+    color: white;
+}
+.Recruiting{
+    background-color: rgb(100, 245, 153);
+    border-radius: 10px;
+    padding: 5px;
+    color: white;
+}
+.Mobile{
+    background-color: orange;
+    border-radius: 10px;
+    padding: 5px;
+    color: white;
+}
+.Website{
+    background-color: rgb(234, 87, 111);
+    border-radius: 10px;
+    padding: 5px;
+    color: white;
+}
+.Sales{
+    background-color: rgb(87, 234, 129);
+    border-radius: 10px;
+    padding: 5px;
+    color: white;
+}
+.done{
+    
+    border: 1px solid green;
+    color: green;
+    font-size: 10px;
+    border-radius: 50%;
+    padding: 10px 11px;
+    margin: 0 10px;
+}
+.null{
+    
+    border: 1px solid red;
+    color: red;
+    font-size: 10px;
+    border-radius: 50%;
+    padding: 10px 11px;
+    margin: 0 10px;
+}
+.line-through{
+    text-decoration: line-through;
 }
