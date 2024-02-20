@@ -33,6 +33,7 @@ section{
     box-shadow: 10px 10px 20px 0px rgba(0, 0, 0, 0.5);
 }
 .contenitor-button{
+    text-align: center;
     height: 200px;
     margin: 0px auto;
     line-height: 200px;
@@ -41,7 +42,7 @@ section{
 .contenitor-button input{
     width: 50%;
     height: 90px;
-    margin-left: 20%;
+   
     border-radius: 10px;
     margin-right: 10px;
     border: none;
